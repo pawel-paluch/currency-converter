@@ -9,8 +9,6 @@
  - BEM;
  - JavaScript. 
  
- When you click the button, the background of the page changes.
-
 ![alt text for screen readers](img/screen.jpg "Homepage")
 
 ## Demo
