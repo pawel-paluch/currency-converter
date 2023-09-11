@@ -16,12 +16,12 @@ html {
   font-weight: 300;
   line-height: 1.6;
   color: #222;
-  background-image: url("https://pixelvision.pl/dev/backgroundDark.jpg");
-  background-position: top center;
-  background-repeat: repeat;
+  background-image: url("../img/backgroundDark.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #222;
-  background-size: contain;
+  background-size: cover;
 }
 
 .footer {
