@@ -18,13 +18,13 @@
   margin-bottom: 50px;
 }
 
-.container__p {
+.container__paragraph {
   margin-bottom: 12px;
   text-align: center;
   font-size: 16px;
 }
 
-.container__p--highlited {
+.container__paragraph--highlited {
   font-size: 24px;
   text-align: center;
   font-weight: 600;

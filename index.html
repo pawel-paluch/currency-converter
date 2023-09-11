@@ -4,6 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" href="img/calculator-192.png">
+    <meta property="og:title" content="Kalkulator walut" />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="img/share.png" />
+
     <link href="css/style.css" rel="stylesheet">
     <link href="css/container.css" rel="stylesheet">
     <link href="css/form.css" rel="stylesheet">
@@ -14,7 +20,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
-    <title>Zadanie domowe z lekcji nr 4 - kalkulator walut</title>
+    <title>Kalkulator walut</title>
 </head>
 
 <body class="body">
@@ -22,12 +28,12 @@
         <form class="form js-form" method="get">
             <fieldset class="form__fieldset">
                 <legend class="form__legend">Kalkulator walut</legend>
-                <p class="form__p">
+                <p class="form__paragraph">
                     <label class="form__label">Kwota w PLN <span class="form__required">*</span></label>
                     <input class="form__text js-amount" type="number" min="0.01" step="any"
                         placeholder="Wpisz kwotę w PLN" required>
                 </p>
-                <p class="form__p">
+                <p class="form__paragraph">
                     <label class="form__label">Wybierz walutę</label>
                     <select class="form__select js-currency">
                         <option value="rateUSD">Dolar amerykański (USD)</option>
@@ -35,22 +41,22 @@
                         <option value="rateCHF">Frank szwajcarski (CHF)</option>
                     </select>
                 </p>
-                <p class="form__p">
+                <p class="form__paragraph">
 
                     <input type="submit" class="form__button" value="Przelicz">
                     <input type="reset" class="form__button form__button--reset" value="Wyczyść">
                 </p>
-                <p class="form__p form__p--smallText">Pola oznaczone <span class="form__required">*</span> są
+                <p class="form__paragraph form__paragraph--smallText">Pola oznaczone <span class="form__required">*</span> są
                     obowiązkowe
                 </p>
             </fieldset>
         </form>
 
-        <p class="container__p container__p--highlited">
+        <p class="container__paragraph container__paragraph--highlited">
             <span class="js-result"></span> <span class="js-cash"></span>
         </p>
 
-        <p class="container__p">
+        <p class="container__paragraph">
             Kurs walut NBP na dzień: <strong>20 sierpnia 2023 r.</strong>
         </p>
 
