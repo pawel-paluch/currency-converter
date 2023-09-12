@@ -1,4 +1,4 @@
-# Cuurency converter
+# Currency converter
 ## Description
 
 **The calculator function is to convert PLN to other currencies**.
