@@ -12,4 +12,4 @@
 ![alt text for screen readers](img/screen.jpg "Homepage")
 
 ## Demo
-[See the project](https://pawel-paluch.github.io/currency-converter/).
+[See the project](https://pawel-paluch.github.io/currency-converter/)
